@@ -33,7 +33,7 @@ label-studio start my_project --init
 
 
 
-![](img/首页.png)
+![首页](img/首页.png)
 
 **打开项目**
 
@@ -53,7 +53,7 @@ label-studio start my_project
 
 默认的界面如下
 
-![](img/labelconfig.png)
+![labelconfig](img/labelconfig.png)
 
 图片中有左侧html解读
 
@@ -70,7 +70,7 @@ label-studio start my_project
 
 #### 4.1.1 数据
 
-![](img/data.png)
+![data](img/data.png)
 
 假设我现在已有数据 **data.csv**，需要标注
 
@@ -129,11 +129,11 @@ label-studio start my_project
 
 完成html设计后,这一步很简单，只需要上传需要标注的数据文件即可。
 
-![](img/import.gif)
+![import.gif](img/import.gif)
 
 因为我们的数据只有8条，所以这里生成了8个标注任务。我们可以先试一试，点explore tasks，探索一下我们设置项目任务。
 
-![](img/explore.gif)
+![explore.gif](img/explore.gif)
 
 我们可以看到头像、简介、视频，并且对三个字段进行常识性标注。^_^
 
@@ -143,7 +143,7 @@ label-studio start my_project
 
 前面不出错的话，这一步很简单，只需要标注几个数据，看看是否都能正常显示文本、图片和视频。
 
-![](img/label.gif)
+![label.gif](img/label.gif)
 
 ### 4.4 导出数据
 
@@ -151,11 +151,11 @@ label-studio start my_project
 
 导出的数据格式，支持json、csv/tsv。
 
-![](img/export.gif)
+![export.gif](img/export.gif)
 
 由于csv默认编码为utf-8, 所以用微软office打开会乱码，这里我用记事本打开，发现字段名多了   **头像美不美,读后是否印象深刻,视频是否有bgm**
 
-![](img/输出字段.png)
+![输出字段.png](img/输出字段.png)
 
 **注意**
 
