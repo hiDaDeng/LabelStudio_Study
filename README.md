@@ -8,14 +8,7 @@
 
 所以对于小白或者文科生而言还是没法用python自动化快速实现多媒体数据的标注，但是却可以让我们的标注过程更高效。今天介绍的label-studio库可以在没下载相关多媒体情况下，仅仅依靠图片、音频、视频的链接即可联网打开，进行标注。
 
-<iframe 
-src="https://www.bilibili.com/video/BV16C4y1s7XY/" 
-scrolling="no" 
-border="0" 
-frameborder="no" 
-framespacing="0" 
-allowfullscreen="true"> 
-</iframe>
+<iframe src="http://player.bilibili.com/player.html?aid=795183921&bvid=BV16C4y1s7XY&cid=176916017&page=1" scrolling="no" width="800px" height="600px" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## 二、安装
 
