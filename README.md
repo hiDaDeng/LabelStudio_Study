@@ -8,7 +8,9 @@
 
 所以对于小白或者文科生而言还是没法用python自动化快速实现多媒体数据的标注，但是却可以让我们的标注过程更高效。今天介绍的label-studio库可以在没下载相关多媒体情况下，仅仅依靠图片、音频、视频的链接即可联网打开，进行标注。
 
-## [B站视频:如何用Python对多媒体数据进行标注](https://www.bilibili.com/video/BV16C4y1s7XY/)
+点击下方视频，观看  《B站视频:如何用Python对多媒体数据进行标注 》
+[![](img/B站.png)](https://www.bilibili.com/video/BV16C4y1s7XY/)
+
 ---
 
 <br><br>
