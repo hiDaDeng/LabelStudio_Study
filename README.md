@@ -11,13 +11,15 @@
 ## [B站视频:如何用Python对多媒体数据进行标注](https://www.bilibili.com/video/BV16C4y1s7XY/)
 ---
 
+<br><br>
+
 ## 二、安装
 
 ```
 pip install label-studio
 ```
 
-
+<br><br>
 
 ## 三、 创建项目
 
@@ -46,11 +48,13 @@ label-studio start my_project --init
 label-studio start my_project
 ```
 
-
+<br><br>
 
 ## 四、项目设置
 
 根据自己需要标注的数据情况，我们需要设计标注页面。
+
+<br>
 
 ### 4.1 标注默认项设置
 
@@ -69,7 +73,7 @@ label-studio start my_project
 
 这块比较难理解，可看我的操作视频辅助你学习理解。该页面上方有很多不同任务类型对应的html设计，大家可以都点击蓝色链接查看一下。
 
-
+<br>
 
 #### 4.1.1 数据
 
@@ -90,6 +94,8 @@ label-studio start my_project
 **强调**
 
  带html样式的视频链接所在的列字段名一定要设置为video
+
+<br>
 
 #### 4.1.2 diy自己的html
 
@@ -128,6 +134,8 @@ label-studio start my_project
 
 渲染图如果没出错，符合你的语气，就点击左下角**Save**
 
+<br>
+
 ### 4.2 导入数据
 
 完成html设计后,这一步很简单，只需要上传需要标注的数据文件即可。
@@ -140,13 +148,15 @@ label-studio start my_project
 
 我们可以看到头像、简介、视频，并且对三个字段进行常识性标注。^_^
 
-
+<br>
 
 ### 4.3 开始标注
 
 前面不出错的话，这一步很简单，只需要标注几个数据，看看是否都能正常显示文本、图片和视频。
 
 ![label.gif](img/label.gif)
+
+<br>
 
 ### 4.4 导出数据
 
@@ -170,6 +180,8 @@ label-studio start my_project
  <Choices name="视频是否有bgm" toName="video" choice="single-radio">
 ```
 
+<br>
+
 ## 总结
 
 label-studio在多媒体标注挺好用的，比较适合小数据量标注时候提高自己的标注效率。虽然NVivo也可以标注数据，但是都必须要先下载下来，而label-studio不需要下载，只需要保留多媒体链接即可。
@@ -179,4 +191,35 @@ label-studio在多媒体标注挺好用的，比较适合小数据量标注时�
 ```html
 <video src="http://v1.keepcdn.com/video/2018/06/14/21/1facdd876003ac08469dcf9363921f56f6a9f620.mp4" preload="auto" width=100% controls>
 ```
+
+<br><br>
+
+# 如果
+
+如果您是经管人文社科专业背景，编程小白，面临海量文本数据采集和处理分析艰巨任务，可以参看[《python网络爬虫与文本数据分析》](https://ke.qq.com/course/482241?tuin=163164df)视频课。作为文科生，一样也是从两眼一抹黑开始，这门课程是用五年时间凝缩出来的。自认为讲的很通俗易懂o(*￣︶￣*)o，
+
+- python入门
+- 网络爬虫
+- 数据读取
+- 文本分析入门
+- 机器学习与文本分析
+- 文本分析在经管研究中的应用
+
+感兴趣的童鞋不妨 戳一下[《python网络爬虫与文本数据分析》](https://ke.qq.com/course/482241?tuin=163164df)进来看看~
+
+[![](img/课程.png)](https://ke.qq.com/course/482241?tuin=163164df)
+
+
+<br><br>
+
+# 更多
+
+- [B站:大邓和他的python](https://space.bilibili.com/122592901/channel/detail?cid=66008)
+
+- 公众号：大邓和他的python
+
+- [知乎专栏：数据科学家](https://zhuanlan.zhihu.com/dadeng)
+
+![](img/大邓和他的Python.png)
+
 
